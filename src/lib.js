@@ -26,5 +26,5 @@ export const chooseRandom = (array = [], numItems) => {
     }, [])
   // TODO return a new array filtering the passed in array for only the
   // indices contained in the randomIndices array
-  return Array.from(randomIndices.map(x => array[x - 1]))
+  return Array.from(randomIndices.map(x => array[x]))
 }
